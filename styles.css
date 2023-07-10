@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+
+header{
+    background-color: grey;
+    height: 10vh;
+}
+.header-links li{
+    list-style: none;
+    display: flex;
+}
+.header-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.header-links{
+    display: flex;
+    gap: 50px;
+    font-style: italic;
+    cursor: pointer;
+}
+.header-links:hover{
+    color: white;
+}
+.page-logo{
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.digital{
+    font-size: 20px;
+    color: rgb(70, 177, 219);
+}
