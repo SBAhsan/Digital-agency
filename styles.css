@@ -5,9 +5,12 @@
 
 /* header styles */
 
+/* first part styles */
+
 header{
     background-color: grey;
     height: 10vh;
+    margin: 0px;
 }
 .header-links li{
     list-style: none;
@@ -37,4 +40,46 @@ header{
 .digital{
     font-size: 20px;
     color: rgb(70, 177, 219);
+}
+
+/* banner part styles */
+
+.banner{
+    height: 100vh;
+    background-image: url('asset/image/background.jpg'),
+    linear-gradient(rgba(9, 9, 9, 0.4),rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.banner-container{
+    width: 500px;
+    padding-left: 500px;
+}
+.large-digital{
+    color: orangered;
+}
+.banner-head{
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.banner-para{
+    color: white;
+    padding: 10px 0;
+}
+
+.discover-button{
+    color: white;
+    background-color: orangered;
+    padding: 10px 25px;
+    border: none;
+    margin-right: 10px;
+}
+.hire-button{
+    background-color: white;
+    padding: 10px 25px;
+    border: none;
 }
